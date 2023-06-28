@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Thommunisme</title>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/t.png" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
+		<script src="https://kit.fontawesome.com/e460819264.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<script>
+			let getCookie = (cname) => {
+                let name = cname + "=";
+                let decodedCookie = decodeURIComponent(document.cookie);
+                let ca = decodedCookie.split(";");
+                for (let i = 0; i < ca.length; i++) {
+                    let c = ca[i];
+                    while (c.charAt(0) == " ") {
+                        c = c.substring(1);
+                    }
+                    if (c.indexOf(name) == 0) {
+                        return c.substring(name.length, c.length);
+                    }
+                }
+                return "";
+            };
+
+            function setLight() {
+                document.documentElement.classList.remove("dark");
+                document.cookie = "theme=light";
+            }
+
+            function setDark() {
+                document.documentElement.classList.add("dark");
+                document.cookie = "theme=dark";
+            }
+
+            let theme = getCookie("theme");
+
+            if (!theme) {
+                document.cookie = "theme=light";
+            } else {
+                if (theme == "light") setLight();
+                if (theme == "dark") setDark();
+            }
+		  </script>
+		%sveltekit.head%
+	</head>
+	<body>
+		<div>%sveltekit.body%</div>
+	</body>
+</html>
