@@ -7,8 +7,8 @@ import LightToggleButton from "./LightToggleButton.svelte";
 
     <nav class="items-center h-full w-fit flex">
         <NavBarItem link="/" name="Home"/>
-        <NavBarItem link="/#portofolio" name="Portofolio"/>
         <NavBarItem link="/blog" name="Blog" />
+        <NavBarItem link="/weather" name="Weather"/>
         <NavBarItem link="/contact" name="Contact"/>
     </nav>
 
