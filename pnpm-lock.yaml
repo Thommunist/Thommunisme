@@ -1,0 +1,13 @@
+lockfileVersion: 5.4
+
+specifiers:
+  scroll-lock: ^2.1.5
+
+dependencies:
+  scroll-lock: 2.1.5
+
+packages:
+
+  /scroll-lock/2.1.5:
+    resolution: {integrity: sha512-GN8Lp0AzXbkrPFUUNkMUruiiv019UvarNKE/SnXi+AxZRjMnDc2R22VB9RcUtL4P/uub04cKibmpHKIKTyWwYQ==}
+    dev: false
