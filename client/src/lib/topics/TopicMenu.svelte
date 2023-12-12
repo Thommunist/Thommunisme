@@ -16,7 +16,7 @@
 >
 <span class="flex bg-skillPost min-w-full p-4 rounded-t-2xl text-xl justify-between max-h-20">
 
-	<div class="flex row">
+	<div class="flex row ">
 		<img class="max-h-fit {rounded}" src={img} alt="Logo"/>
 		<h1 class="">{title}</h1>
 	</div>

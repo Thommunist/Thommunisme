@@ -12,14 +12,19 @@
 
 	.logo {
 		font-family: 'Contrail One', cursive;
+		width: full;
 	}
 
-	p, h1, h2, h3, li {
+	p,
+	h1,
+	h2,
+	h3,
+	li {
 		margin-top: 5px;
 		margin-left: 12px;
 	}
 
-    p{
-        font-size: 18px;
-    }
+	p {
+		font-size: 18px;
+	}
 }

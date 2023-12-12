@@ -9,11 +9,11 @@
 	function menu() {
 		if (!dropdownMenu || !icon) return;
 		if (open) {
-			icon.innerHTML = "<i class='fa-solid fa-bars'></i>";
+			icon.innerHTML = "<i class='fa-solid fa-bars overscroll-auto'></i>";
 			dropdownMenu.style.display = 'none';
 			open = false;
 		} else {
-			icon.innerHTML = "<i class='fa-solid fa-grip-lines-vertical'></i>";
+			icon.innerHTML = "<i class='fa-solid fa-grip-lines-vertical disable-overscroll'></i>";
 			dropdownMenu.style.display = 'flex';
 			open = true;
 		}
@@ -27,7 +27,7 @@
 	>
 		<NavBarItem link="/" name="Home" />
 		<NavBarItem link="/blog" name="Blog" />
-		<NavBarItem link="/weather" name="Weather"/>
+		<NavBarItem link="/weather" name="Weather" />
 		<NavBarItem link="/contact" name="Contact" />
 	</div>
 
