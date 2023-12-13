@@ -18,24 +18,29 @@
 	}
 </script>
 
-<div class="">
-	<div id="home" class="mobile:flex-row flex flex-col justify-between">
-		<img class="ms-8 flex rounded-md mr-10" src="dutch.jpg" alt="Olifant" width="500" height="600" />
+<div id="home" class="@container min-w-full gap-5">
+	<div class="@xs:grid-cols-1 @3xl:grid-cols-2 grid">
+		<img
+			class="flex max-h-[80%] min-w-full rounded-md"
+			src="dutch.jpg"
+			alt="Dutch Flag"
+			width="500"
+			height="600"
+		/>
 
-		<div class="flex flex-col">
+		<div class="justify-items-center">
 			<div>
 				<h1 class="text-3xl">Welcome on Thommunisme.nl</h1>
 
-
 				<p>
-					My name is Thom and I'am a {getAge()} years old dutch software engineer. In 2020 I started the study
-					HBO-ICT on Saxion University of applied sciences. That was
+					My name is Thom and I'am a {getAge()} years old dutch software engineer. In 2020 I started
+					the study HBO-ICT on Saxion University of applied sciences. That was
 					{studyTime()} years ago. Thommunisme.nl is a website about my software engineer journey. Feel
 					free to contact me if you want to talk about tech or if you have a question.
 				</p>
 			</div>
 
-			<div class="mobile:flex-row flex w-full flex-col justify-evenly my-5">
+			<div class="@xs:grid-cols-1 @sm:grid-cols-2 @lg:grid-cols-3 grid justify-items-center gap-5">
 				<Button
 					logo="group-hover:animate-bounce fa-brands fa-github fa-2x"
 					link="https://github.com/Thommunist"

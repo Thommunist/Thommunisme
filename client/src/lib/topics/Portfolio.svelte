@@ -2,18 +2,10 @@
 	import TopicMenu from './TopicMenu.svelte';
 </script>
 
-<!-- Internships
-Skills
-Flame
-Study Saxion bedrijven -->
-
 <h1 class="flex justify-center self-center text-5xl">Portfolio</h1>
 
-<div class="@container">
-	<div
-		id="portofolio"
-		class="@xs:grid-cols-1 @2xl:grid-cols-2 @6xl:grid-cols-3 m-2 grid max-w-full justify-evenly overflow-auto"
-	>
+<div class="@container place-items-center">
+	<div id="portofolio" class="@xs:grid-cols-1 @3xl:grid-cols-2 @6xl:grid-cols-3 grid gap-5 justify-items-center">
 		<TopicMenu
 			rounded=""
 			img="flame_coloured_trans.png"
@@ -40,7 +32,7 @@ Study Saxion bedrijven -->
 			rounded="rounded-full"
 			img="logo_agrovision.png"
 			title="AgroVision"
-			dates="September - October 2021"
+			dates="Sep - Oct 2021"
 			text="With our student team we made a CO2 calculator website for AgroVision. This was a very intresting project because it was my first experience with the Svelte front-end framework."
 			link="https://www.agrovision.com/nl"
 			linkText="AgroVision.com"
@@ -60,7 +52,7 @@ Study Saxion bedrijven -->
 			rounded="rounded-full"
 			img="Data2Track.png"
 			title="Data2Track"
-			dates="February 2023 - Juli 2023"
+			dates="Feb 2023 - Juli 2023"
 			text="For the third year internship I started at Data2Track. In this internship I made a proof of concept to detect changes in a Triplist (Json). This solution needed to be generic for different triplist. The proof of concept is written in Kotlin."
 			link="https://www.d2t.nl/"
 			linkText="Data2Tack.nl"
@@ -70,7 +62,7 @@ Study Saxion bedrijven -->
 			rounded="rounded-full"
 			img="AgroIt.png"
 			title="Agro-IT"
-			dates="September 2023 - Januari 2024"
+			dates="Sep 2023 - Jan 2024"
 			text="After my internship I wanted to have a side job in the IT field. Thanks to a friend of mine I was invated to Agro-IT. At Agro-IT I helped to create an rVDM website for the Agro sector."
 			link="https://agro-it.nl/"
 			linkText="Agro-it.nl"

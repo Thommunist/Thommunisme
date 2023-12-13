@@ -1,12 +1,10 @@
 <script>
-	import Portfolio from "$lib/topics/Portfolio.svelte";
-	import Welcome from "$lib/topics/Welcome.svelte";
-
+	import Portfolio from '$lib/topics/Portfolio.svelte';
+	import Welcome from '$lib/topics/Welcome.svelte';
 </script>
 
-	<Welcome/>
+<span class="min-w-full justify-items-center">
+	<Welcome />
 
-	<br />
-
-	<Portfolio/> 
-
+	<Portfolio />
+</span>

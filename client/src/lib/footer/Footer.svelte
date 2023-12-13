@@ -7,7 +7,7 @@
 </script>
 
 <footer
-	class="bg-headerLight dark:bg-headerDark realtive bottom-0 flex h-fit h-32 w-full items-stretch overflow-auto"
+	class="bg-headerLight dark:bg-headerDark realtive bottom-0 flex h-20 w-full items-stretch overflow-auto"
 >
 	<div class="flex w-full flex-col items-start justify-center py-2 px-7">
 		<p>©2020 - {copyRight()} All Rights reserved</p>

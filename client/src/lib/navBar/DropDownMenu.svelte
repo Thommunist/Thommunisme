@@ -23,7 +23,7 @@
 <div class="relative flex">
 	<div
 		bind:this={dropdownMenu}
-		class="fixed inset-0 top-20 hidden h-full w-full flex-col justify-between bg-slate-800 opacity-95 dark:bg-slate-500"
+		class="fixed inset-0 top-20 z-50 hidden h-full w-full flex-col justify-between bg-slate-800 opacity-95 dark:bg-slate-500"
 	>
 		<NavBarItem link="/" name="Home" />
 		<NavBarItem link="/blog" name="Blog" />
