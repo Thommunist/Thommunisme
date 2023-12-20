@@ -5,7 +5,10 @@
 <h1 class="flex justify-center self-center text-5xl">Portfolio</h1>
 
 <div class="@container place-items-center">
-	<div id="portofolio" class="@xs:grid-cols-1 @3xl:grid-cols-2 @6xl:grid-cols-3 grid gap-5 justify-items-center">
+	<div
+		id="portofolio"
+		class="@xs:grid-cols-1 @3xl:grid-cols-2 @6xl:grid-cols-3 grid justify-items-center gap-5"
+	>
 		<TopicMenu
 			rounded=""
 			img="flame_coloured_trans.png"

@@ -21,7 +21,7 @@
 <div id="home" class="@container min-w-full gap-5">
 	<div class="@xs:grid-cols-1 @3xl:grid-cols-2 grid">
 		<img
-			class="flex max-h-[80%] min-w-full rounded-md"
+			class="flex max-h-[80%] max-w-full rounded-md"
 			src="dutch.jpg"
 			alt="Dutch Flag"
 			width="500"

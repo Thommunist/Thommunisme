@@ -9,12 +9,12 @@
 </script>
 
 <div
-	class="w-md my-6 mx-2 flex h-fit max-w-md flex-col items-center rounded-2xl justify-center bg-white dark:bg-slate-700"
+	class="w-md my-6 mx-2 flex h-fit max-w-md flex-col items-center justify-center rounded-2xl bg-white dark:bg-slate-700"
 >
 	<span
 		class="bg-skillPost dark:bg-headerDark flex h-20 max-h-fit min-w-full justify-between rounded-t-2xl p-4 text-xl"
 	>
-		<img class={rounded} src={img} alt="Logo" />
+		<img class="{rounded} max-h-12" src={img} alt="Logo" />
 		<h1 class="">{title}</h1>
 		<h1 class="">{dates}</h1>
 	</span>
