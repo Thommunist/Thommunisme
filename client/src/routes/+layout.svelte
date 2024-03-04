@@ -7,6 +7,7 @@
 <main
 	class="flex min-h-screen w-full justify-center text-black dark:text-white bg-backgroundLight dark:bg-backgroundDark"
 >
+<!-- //update -->
 	<div class="flex flex-col w-[98%] max-w-[1800px] items-center justify-center content-center">
 		<Header />
 		<div class="flex flex-col w-[80%]">
