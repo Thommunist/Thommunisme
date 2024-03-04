@@ -4,18 +4,15 @@
 
 <h1 class="flex justify-center self-center text-5xl">Portfolio</h1>
 
-<div class="@container place-items-center">
-	<div
-		id="portofolio"
-		class="@xs:grid-cols-1 @3xl:grid-cols-2 @6xl:grid-cols-3 grid justify-items-center gap-5"
-	>
+<div class="@container">
+	<div id="portofolio" class="@xs:grid-cols-1 @3xl:grid-cols-2 @6xl:grid-cols-3 grid">
 		<TopicMenu
 			rounded=""
 			img="flame_coloured_trans.png"
 			title="Flame"
 			dates="2022 - now"
 			text="Together with Pascal van Ginkel, other known as Midblep, I started a compagny named Flame Software. For more information check out the website."
-			link="https://flamesoftware.nl/"
+			link="https://flamesoftware.net/"
 			linkText="FlameSoftware.nl"
 		/>
 
@@ -69,6 +66,16 @@
 			text="After my internship I wanted to have a side job in the IT field. Thanks to a friend of mine I was invated to Agro-IT. At Agro-IT I helped to create an rVDM website for the Agro sector."
 			link="https://agro-it.nl/"
 			linkText="Agro-it.nl"
+		/>
+
+		<TopicMenu
+			rounded="rounded"
+			img="DefensieAchtergrond.png"
+			title="Dutch ministery of Defense"
+			dates="Feb 2024 - Juli 2024"
+			text="For mine graduation project I developted a cyber programm for the Dutch ministery of Defense"
+			link="https://www.defensie.nl/"
+			linkText="Defensie.nl"
 		/>
 
 		<TopicMenu
