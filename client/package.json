@@ -1,5 +1,11 @@
 {
 	"name": "client",
+	"engines": {
+		"node": ">=14",
+		"npm": ">=7",
+		"pnpm": ">=7"
+	  },
+	  "engineStrict": true,
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
