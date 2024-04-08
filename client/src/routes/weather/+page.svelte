@@ -2,13 +2,13 @@
 	import { browser } from '$app/environment';
 	import { onMount } from 'svelte';
 
-	const apiKey = "c93a6ce7cb7e1d00ea978291ff0519da";
-	const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=bangalore&appid=";
+	const apiKey = 'c93a6ce7cb7e1d00ea978291ff0519da';
+	const apiUrl = 'https://api.openweathermap.org/data/2.5/weather?units=metric&q=';
 
-	let city:string;
-	let temp:number;
-	let humidity:number;
-	let windSpeed:number;
+	let city: string;
+	let temp: number;
+	let humidity: number;
+	let windSpeed: number;
 
 	onMount(async () => {
 		if (!browser) return;
@@ -20,10 +20,8 @@
 	});
 
 	async function checkWeather(type: string, city: string) {
-		const response = await fetch(apiUrl+ city + apiKey);
+		const response = await fetch(apiUrl + city + '&appid=' + apiKey);
 		var data = await response.json();
-
-		console.log(data);
 
 		switch (type) {
 			case 'city': {
@@ -43,7 +41,7 @@
 </script>
 
 <div
-	class="max-w-96 my-16  mx-auto flex w-[90%] flex-col rounded-lg bg-gradient-to-tl from-teal-800
+	class="max-w-96 my-16 mx-auto flex w-[90%] flex-col rounded-lg bg-gradient-to-tl from-teal-800
 via-teal-500 to-green-200 p-5 text-center text-white"
 >
 	<div class="flex w-full content-between items-center">
@@ -56,13 +54,13 @@ via-teal-500 to-green-200 p-5 text-center text-white"
 			value={city}
 		/>
 
-		<button
+		<!-- <button
 		on:click={checkWeather("city", city)}
 			class="order-none flex h-16 w-16
 		cursor-pointer items-center justify-center rounded-full bg-[#ebfffc] outline-none"
 		>
 			<img class="flex w-4" src="weatherPics/search.png" alt="Search button" />
-		</button>
+		</button> -->
 	</div>
 
 	<div class="flex flex-col items-center">

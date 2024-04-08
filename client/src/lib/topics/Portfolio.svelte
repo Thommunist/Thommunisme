@@ -73,7 +73,7 @@
 			img="DefensieAchtergrond.png"
 			title="Dutch ministery of Defense"
 			dates="Feb 2024 - Juli 2024"
-			text="For mine graduation project I developted a cyber programm for the Dutch ministery of Defense"
+			text="For my graduation project I developted a cyber program for the Dutch ministery of Defense"
 			link="https://www.defensie.nl/"
 			linkText="Defensie.nl"
 		/>
