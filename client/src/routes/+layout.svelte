@@ -3,7 +3,7 @@
 	import '$lib/app.css';
 	import Footer from '$lib/footer/Footer.svelte';
 </script>
-
+<!--
 <main
 	class="flex min-h-screen w-full justify-center text-black dark:text-white bg-backgroundLight dark:bg-backgroundDark"
 >
@@ -15,3 +15,5 @@
 		<Footer />
 	</div>
 </main>
+-->
+
