@@ -7,9 +7,7 @@
 <main
 	class="bg-backgroundLight dark:bg-backgroundDark flex min-h-screen w-full justify-center text-black dark:text-white"
 >
-	<div
-		class="bg-backgroundLight flex w-[98%] max-w-[1800px] flex-col content-center items-center justify-center"
-	>
+	<div class="flex w-[98%] max-w-[1800px] flex-col content-center items-center justify-center">
 		<Header />
 		<div class="flex w-[80%] flex-col">
 			<slot />
